@@ -4,17 +4,13 @@ import "./Footer.css"
 const Footer = () => {
     return (
         <footer className="footer">
-            <div className="footer-info">
-                <h1>Guido Abelleira</h1>
-                <p>Based in your city</p>
-            </div>
             <div className="footer-contact">
                 <h3>Contact me</h3>
                 <p>And let's get down to work</p>
             </div>
             <div className="footer-sns">
                 <div className="desing-by">
-                    Desing by Guido Abelleira
+                    Desing by Guido Abelleira - 2021
                 </div>
                 <div className="sns-links">
                     <a href="https://www.linkedin.com/in/guidoabelleira" target="_blank" rel="noreferrer">
