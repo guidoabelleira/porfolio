@@ -14,6 +14,10 @@
     padding: 0 100px 0 100px;
 }
 
+.a {
+    text-decoration: none;
+}
+
 .slide-container {
     height: 80%;
     border-radius: 40px;
@@ -22,8 +26,13 @@
     cursor: pointer;
 }
 
+.slide-container > a {
+    text-decoration: none;
+}
+
 .slide-container > img {
-    object-fit: contain;
+    object-fit: cover;
+    height: 100%;
     transition: all 0.2s ease-in-out;
 }
 
@@ -82,4 +91,5 @@
     .slide-container {
         width: 100%;
     }
+    
 }
